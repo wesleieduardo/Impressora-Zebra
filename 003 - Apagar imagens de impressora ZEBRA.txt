@@ -1,0 +1,8 @@
+Enviar o script em formato TXT para a impressora através do comando COPY
+
+^XA
+^IDE:*.GRF^FS
+^XE
+
+E: = unidade da impressora que esta apagando
+*.GRF = todos os arquivos .GRF

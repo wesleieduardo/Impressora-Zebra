@@ -1,0 +1,11 @@
+Para impressão de letras e números no código de barras deve-se utilizar CODE128-B.
+Porém este formato de código, é mais extenso do que CODE128-C.
+
+Caso necessite que o código de barras seja menos extenso, deve-se utilizar os dois tipos, utilizando o CODE128-B apenas nas informações que contém letras.
+No manual linguagem ZPL, encontrei a página em subset character, onde constam as instruções:
+
+>6 = Muda da codificação CODE128 para CODE128B
+>5 = Muda da codificação CODE128B para CODE128C
+
+No exemplo abaixo, está sendo impresso uma numeração do lote composta pelo seguinte número: FRA27113
+Ex: 40133107201731012019002000>6FRA27113>500272380
