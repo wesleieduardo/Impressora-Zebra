@@ -1,0 +1,8 @@
+A solução abaixo consiste em converter o arquivo de imagem (antes de realizar a importação para o Zebra Designer) em monocromático, no formato PCX.
+
+Abaixo seguem instruções de como proceder:
+
+- Download do software Irfanview, para manipulação das imagens (software de licença free);
+- Abrir o software e navegar até o menu: File > Open > abrir o arquivo de imagem (formato PNG, JPG, JPEG, etc...)
+- Ainda dentro do software Irfanview, acessar o menu: Image > Decrease Color Depth > Será apresentada uma janela e deve selecionar a opção "2 Colors (black/white) (1bpp)
+- Após isto, acessar o menu File > Save as > Salvar a imagem modificada com a extensão .PCX
